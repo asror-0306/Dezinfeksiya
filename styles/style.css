@@ -1,0 +1,1962 @@
+/* GLOBAL STYLES START */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --unbounded: "Unbounded", sans-serif;
+  --sf-pro-display: "SF Pro Display", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* GLOBAL STYLES END */
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* HEADER START */
+
+header {
+  width: 100%;
+  padding-top: 30px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+
+header nav .extra-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header nav .list {
+  display: flex;
+  justify-content: space-between;
+  width: 36%;
+}
+
+header nav .list .list-item a {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #666666;
+}
+
+header nav .entry {
+  background-color: #3360ff;
+  color: #ffffff;
+  border-radius: 20px;
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  width: 195px;
+  height: 36px;
+}
+
+.menu {
+  display: none;
+}
+
+/* HEADER END */
+
+/* service section start */
+
+#service {
+  width: 100%;
+  padding-top: 100px;
+}
+
+#service .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 540px;
+}
+
+#service .wrapper .left,
+.right {
+  width: 50%;
+}
+
+#service .wrapper .left h1 {
+  font-family: var(--unbounded);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #3360ff;
+  text-shadow: 4px 0px #000000;
+  outline-color: #000000 1px solid;
+}
+
+#service .wrapper .left .left-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 570px;
+}
+
+#service .wrapper .left .left-div p {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #676d83;
+  margin-top: 20px;
+}
+
+#service .wrapper .left .left-div img {
+  width: 300px;
+  height: 240px;
+  margin-bottom: 50px;
+}
+
+#service .wrapper .left .btn-div {
+  display: flex;
+  max-width: 302px;
+  justify-content: space-between;
+}
+
+#service .wrapper .left .btn-div .service-btn {
+  padding: 10px 32px;
+  background-color: #3375ff;
+  outline: none;
+  border: none;
+  border-radius: 62px;
+  color: #ffffff;
+  font-family: var(--unbounded);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.32px;
+  width: 218px;
+  height: 48px;
+}
+
+#service .wrapper .left .btn-div span {
+  border: #cccccc 1px solid;
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 48px;
+  border-radius: 62px;
+}
+
+/* service section end */
+
+/* advantages section start */
+#advantages {
+  width: 100%;
+  padding-top: 100px;
+}
+
+#advantages .wrapper {
+  width: 100%;
+  min-height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#advantages .wrapper h2 {
+  font-family: var(--unbounded);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #020c31;
+}
+
+#advantages .wrapper .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#advantages .wrapper .cards .card:nth-child(1) {
+  max-width: 355px;
+  min-height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#advantages .wrapper .cards .card:nth-child(2) {
+  max-width: 350px;
+  min-height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#advantages .wrapper .cards .card:nth-child(3) {
+  max-width: 350px;
+  min-height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#advantages .wrapper .cards .card h4 {
+  font-family: var(--unbounded);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #020c31;
+}
+
+#advantages .wrapper .cards .card p {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #676d83;
+}
+
+/* advantages section end*/
+
+/* ************************************** */
+
+/* satisfaction section start */
+
+#satisfaction {
+  width: 100%;
+  padding-top: 100px;
+}
+
+#satisfaction .wrapper {
+  width: 100%;
+  background-image: url(../assets/images/next\ main\ image.png);
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  border-radius: 16px;
+}
+
+#satisfaction .wrapper .common {
+  width: 40%;
+  min-height: 420px;
+  float: right;
+  margin-right: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#satisfaction .wrapper .common .heading h2 {
+  color: #fafafa;
+  font-family: var(--unbounded);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#satisfaction .wrapper .common .paragraph {
+  width: 57%;
+}
+
+#satisfaction .wrapper .common .paragraph p {
+  color: #ffffff;
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#satisfaction .wrapper .common .mini-common {
+  min-height: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#satisfaction .wrapper .common .satisfaction-btn {
+  padding: 10px 32px;
+  background-color: #3375ff;
+  outline: none;
+  border: none;
+  border-radius: 62px;
+  color: #ffffff;
+  font-family: var(--unbounded);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.32px;
+  width: 218px;
+  height: 48px;
+}
+
+/* satisfaction section end */
+
+/* *********************************************************** */
+
+/* knowledge section start */
+
+#knowledge {
+  padding-top: 100px;
+  width: 100%;
+}
+
+#knowledge .wrapper {
+  width: 100%;
+  min-height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#knowledge .wrapper .starter {
+  width: 335px;
+  min-height: 128px;
+}
+
+#knowledge .wrapper .starter h2 {
+  font-family: var(--unbounded);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #020c31;
+}
+
+#knowledge .wrapper .starter p {
+  font-family: var(--sf-pro-display);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+
+#knowledge .wrapper .cards {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#knowledge .wrapper .cards .card {
+  width: 443px;
+  min-height: 500px;
+  border-radius: 12px;
+  background-color: #f3f6f6;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#knowledge .wrapper .cards .card .mini-card {
+  min-height: 140px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice {
+  width: 70%;
+  min-height: 47px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice .theoretical {
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.84px;
+  color: #056ac7;
+  text-transform: capitalize;
+}
+
+#knowledge
+  .wrapper
+  .cards
+  .card
+  .mini-card
+  .practice
+  .quantity-lesson-theoretical {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #056ac7;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice .center {
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.84px;
+  color: #03ade3;
+  text-transform: capitalize;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice .quantity-lesson-center {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #00a9b3;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice .high {
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.84px;
+  color: #009aa3;
+  text-transform: capitalize;
+}
+
+#knowledge .wrapper .cards .card .mini-card .practice .quantity-lesson-high {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #00a9b3;
+}
+
+#knowledge .wrapper .cards .card:nth-child(1) p {
+  color: #056ac7;
+}
+
+#knowledge .wrapper .cards .card h3 {
+  font-family: var(--unbounded);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.68px;
+  color: #020c31;
+}
+
+/* knowledge section end */
+
+/* *********************************************************************************** */
+
+/* belief section start */
+
+#belief {
+  padding-top: 100px;
+  width: 100%;
+}
+
+#belief .wrapper {
+  width: 100%;
+  min-height: 574px;
+  padding: 40px;
+  background: radial-gradient(
+    95.44% 490.36% at 92.87% 11.25%,
+    #33a9ff 0%,
+    #33fff3 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#belief .wrapper .right {
+  width: 50%;
+  min-height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+#belief .wrapper .right .short {
+  min-height: 230px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#belief .wrapper .right .short img {
+  width: 80px;
+  height: 80px;
+}
+
+#belief .wrapper .right .short h2 {
+  color: #fafafa;
+  font-family: var(--unbounded);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#belief .wrapper .right button {
+  padding: 10px 32px;
+  background-color: #3375ff;
+  outline: none;
+  border: none;
+  border-radius: 62px;
+  color: #ffffff;
+  font-family: var(--unbounded);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.32px;
+  width: 218px;
+  height: 48px;
+}
+
+/* belief section end */
+
+/* *********************************************************************** */
+
+/* form section start */
+
+#form {
+  padding-top: 100px;
+  width: 100%;
+}
+
+#form .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  min-height: 448px;
+  background: radial-gradient(
+      58.39% 328.01% at 51.32% 69.21%,
+      #3da0fc 0%,
+      rgba(2, 227, 214, 0.2) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 12px;
+}
+
+#form .wrapper .left {
+  width: 36%;
+  min-height: 384px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#form .wrapper .left h2 {
+  font-family: var(--unbounded);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #242825;
+}
+
+#form .wrapper .left form {
+  width: 100%;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#form .wrapper .left form .name-input {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  padding: 24px;
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.input-num input {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  padding: 24px;
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 125px;
+  min-height: 20px;
+}
+
+.checkbox input {
+  border: #242825cc 1px solid;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox p {
+  font-family: var(--sf-pro-display);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #242825cc;
+}
+
+form button {
+  background-color: #242825;
+  max-width: 408px;
+  min-height: 48px;
+  border-radius: 8px;
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#form .wrapper .right {
+  width: 100%;
+  display: flex;
+}
+
+#form .wrapper .right .right1 {
+  margin-left: 140px;
+  margin-top: 80px;
+}
+
+#form .wrapper .right .right1 h3 {
+  font-family: var(--unbounded);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fafafa;
+}
+
+/* form section end */
+
+/* ************************************** */
+
+/* footer start */
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+
+footer .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .wrapper .information {
+  min-height: 220px;
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer .wrapper .information .address-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+footer .wrapper .information .address-number .address {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .wrapper .information .address-number .address span {
+  display: grid;
+  place-items: center;
+  border: #cccccc 1px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+footer .wrapper .information .address-number .address p {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #242825cc;
+}
+
+footer .wrapper .information .address-number .number {
+  display: flex;
+  width: 23%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .wrapper .information .address-number .number span {
+  display: grid;
+  place-items: center;
+  border: #cccccc 1px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+footer .wrapper .information .address-number .number p {
+  font-family: var(--sf-pro-display);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #242825cc;
+}
+
+.hr {
+  width: 97.5%;
+  border: 1px solid #cccccc;
+}
+
+footer .wrapper .information .social {
+  display: flex;
+  width: 97.5%;
+  min-height: 48px;
+  justify-content: space-between;
+}
+
+footer .wrapper .information .social .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  width: 32%;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+footer .wrapper .information .social .card .mini-card {
+  width: 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--unbounded);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #242825;
+}
+
+/* footer end */
+
+@media only screen and (max-width: 1300px) {
+  /* footer start */
+
+  footer {
+    max-width: 100%;
+  }
+
+  footer .wrapper {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .wrapper .information {
+    min-height: 220px;
+    max-width: 77%;
+  }
+
+  footer .wrapper .information .address-number {
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 62%;
+  }
+
+  footer .wrapper .information .address-number .address span {
+    width: 8%;
+    min-height: 40px;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 30%;
+  }
+
+  footer .wrapper .information .address-number .number span {
+    width: 18%;
+    min-height: 40px;
+  }
+
+  .hr {
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    max-width: 100%;
+    min-height: 48px;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+    cursor: pointer;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  /* service section start */
+
+  #service {
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  #service .wrapper .left {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    min-height: 500px;
+  }
+
+  #service .wrapper .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  #service .wrapper .left h1 {
+    font-size: 60px;
+  }
+
+  #service .wrapper .left .left-div {
+    width: 100%;
+    max-width: 570px;
+  }
+
+  #service .wrapper .left .left-div p {
+    font-size: 1rem;
+  }
+
+  #service .wrapper .left .left-div img {
+    display: none;
+  }
+
+  #service .wrapper .left .btn-div {
+    display: none;
+  }
+
+  #service .wrapper .left .btn-div span {
+    width: 100%;
+  }
+
+  /* service section end */
+
+  /* ********************************************************* */
+
+  /* advantages section start */
+  #advantages {
+    padding-top: 30px;
+  }
+
+  #advantages .wrapper h2 {
+    font-size: 36px;
+  }
+
+  #advantages .wrapper .cards {
+    width: 100%;
+  }
+
+  #advantages .wrapper .cards .card {
+    width: 30%;
+    height: auto;
+  }
+
+  #advantages .wrapper .cards .card img {
+    width: 20%;
+    height: auto;
+  }
+
+  #advantages .wrapper .cards .card h4 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  #advantages .wrapper .cards .card p {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  /* advantages section end*/
+
+  /* ***************************** */
+
+  /* satisfaction section start */
+
+  #satisfaction .wrapper .common .satisfaction-btn {
+    width: auto;
+    height: auto;
+  }
+
+  /* satisfaction section end */
+
+  /* knowledge section start */
+
+  #knowledge .wrapper .cards {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  #knowledge .wrapper .cards .card {
+    width: 32%;
+    height: auto;
+  }
+
+  .image img {
+    width: 30%;
+    height: auto;
+  }
+
+  /* knowledge section end */
+
+  /* *********************************************************************************** */
+
+  /* belief section start */
+
+  #belief .wrapper {
+    padding: 30px;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  #belief .wrapper .right {
+    width: 52%;
+    min-height: 500px;
+  }
+
+  #belief .wrapper .left {
+    width: 46%;
+    min-height: 500px;
+  }
+
+  #belief .wrapper .left img {
+    width: 100%;
+    height: auto;
+  }
+
+  #belief .wrapper .right .short {
+    min-height: 200px;
+    width: 60%;
+  }
+
+  #belief .wrapper .right .short h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  #belief .wrapper .right button {
+    width: auto;
+    height: auto;
+  }
+
+  #belief .wrapper .right .short img {
+    width: 20%;
+    height: auto;
+  }
+
+  /* belief section end */
+
+  /* *********************************************************************** */
+
+  /* form section start */
+
+  #form .wrapper {
+    width: 100%;
+    min-height: 448px;
+  }
+
+  #form .wrapper .left {
+    width: 36%;
+    min-height: 384px;
+  }
+
+  #form .wrapper .left h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  form button {
+    width: auto;
+    height: auto;
+  }
+
+  #form .wrapper .right {
+    width: 80%;
+    display: flex;
+  }
+
+  #form .wrapper .right .right2 img {
+    object-fit: cover;
+    width: 400px;
+    height: 440px;
+  }
+
+  #form .wrapper .right .right1 {
+    width: 100%;
+  }
+
+  /* form section end */
+
+  /* ************************************** */
+
+  /* footer start */
+
+  footer {
+    max-width: 100%;
+  }
+
+  footer .wrapper {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .wrapper .information {
+    min-height: 220px;
+    max-width: 77%;
+  }
+
+  footer .wrapper .information .address-number {
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 65%;
+  }
+
+  footer .wrapper .information .address-number .address span {
+    width: 8%;
+    min-height: 40px;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 30%;
+  }
+
+  footer .wrapper .information .address-number .number span {
+    width: 18%;
+    min-height: 40px;
+  }
+
+  .hr {
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    max-width: 100%;
+    min-height: 48px;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+    cursor: pointer;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    width: 100%;
+  }
+
+  header nav .extra-nav {
+    width: 60%;
+  }
+
+  header nav .list {
+    width: 50%;
+  }
+
+  /* service section start */
+
+  #service .wrapper .left {
+    width: 40%;
+    min-height: 400px;
+  }
+
+  #service .wrapper .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  #service .wrapper .left h1 {
+    font-size: 56px;
+    line-height: 65px;
+  }
+
+  #service .wrapper .left .btn-div {
+    display: none;
+  }
+
+  /* service section end */
+
+  /* ********************************* */
+
+  /* satisfaction section start */
+
+  #satisfaction .wrapper .common .heading h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  /* satisfaction section end */
+
+  /* ***************************** */
+
+  /* knowledge section start */
+
+  #knowledge .wrapper .cards {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  #knowledge .wrapper .cards .card {
+    width: 32%;
+    height: auto;
+  }
+
+  .image img {
+    width: 30%;
+    height: auto;
+  }
+
+  #knowledge .wrapper .cards .card h3 {
+    font-size: 24px;
+    line-height: 39.68px;
+  }
+
+  /* knowledge section end */
+
+  /* *********************************************************************** */
+
+  /* form section start */
+
+  #form .wrapper {
+    width: 100%;
+    min-height: 448px;
+  }
+
+  #form .wrapper .left {
+    width: 100%;
+    min-height: 384px;
+  }
+
+  #form .wrapper .left form {
+    width: 100%;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #form .wrapper .left h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  form button {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #form .wrapper .right {
+    display: none;
+  }
+
+  /* form section end */
+
+  /* ********************************************* */
+
+  /* footer start */
+
+  footer {
+    max-width: 100%;
+  }
+
+  footer .wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  footer .wrapper .information {
+    min-height: 220px;
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .address-number {
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 72%;
+  }
+
+  footer .wrapper .information .address-number .address span {
+    width: 8%;
+    min-height: 40px;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 30%;
+  }
+
+  footer .wrapper .information .address-number .number span {
+    width: 18%;
+    min-height: 40px;
+  }
+
+  .hr {
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    max-width: 100%;
+    min-height: 48px;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+    cursor: pointer;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    width: 100%;
+  }
+
+  header nav .extra-nav {
+    width: 60%;
+  }
+
+  header nav .list {
+    width: 50%;
+  }
+
+  /* service section start */
+
+  #service {
+    padding-top: 20px;
+  }
+
+  #service .wrapper .left {
+    width: 45%;
+    min-height: 400px;
+  }
+
+  #service .wrapper .right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #service .wrapper .left h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  /* service section end */
+
+  /* ********************************* */
+
+  /* atisfaction section start */
+
+  #satisfaction .wrapper .common .heading h2 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  /* atisfaction section end */
+
+  /* ***************************** */
+
+  /* knowledge section start */
+
+  #knowledge .wrapper .starter h2 {
+    font-size: 40px;
+  }
+
+  #knowledge .wrapper .cards {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #knowledge .wrapper .cards .card {
+    width: 32%;
+    height: auto;
+  }
+
+  .image img {
+    width: 25%;
+    height: auto;
+  }
+
+  #knowledge .wrapper .cards .card h3 {
+    font-size: 22px;
+    line-height: 30.68px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card {
+    height: auto;
+    width: 100%;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice {
+    width: 100%;
+    min-height: 47px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .theoretical {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .center {
+    font-size: 14px;
+  }
+
+  #knowledge
+    .wrapper
+    .cards
+    .card
+    .mini-card
+    .practice
+    .quantity-lesson-center {
+    font-size: 14px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .high {
+    font-size: 14px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .quantity-lesson-high {
+    font-size: 14px;
+  }
+
+  /* knowledge section end */
+
+  /* *********************************************************************************** */
+
+  /* belief section start */
+
+  #belief .wrapper {
+    padding: 30px;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  #belief .wrapper .right {
+    width: 52%;
+    min-height: 500px;
+  }
+
+  #belief .wrapper .left {
+    width: 46%;
+    min-height: 500px;
+  }
+
+  #belief .wrapper .left img {
+    width: 100%;
+    height: auto;
+  }
+
+  #belief .wrapper .right .short {
+    min-height: 200px;
+    width: 60%;
+  }
+
+  #belief .wrapper .right .short h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  #belief .wrapper .right button {
+    width: auto;
+    height: auto;
+  }
+
+  #belief .wrapper .right .short img {
+    width: 20%;
+    height: auto;
+  }
+
+  /* belief section end */
+
+  /* form section start */
+
+  #form .wrapper {
+    width: 100%;
+    min-height: 448px;
+    padding: 20px;
+  }
+
+  #form .wrapper .left {
+    width: 100%;
+    min-height: 384px;
+  }
+
+  #form .wrapper .left h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  form button {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #form .wrapper .right {
+    display: none;
+  }
+
+  /* form section end */
+
+  /* ********************************************* */
+
+  /* footer start */
+
+  footer {
+    max-width: 100%;
+  }
+
+  footer .wrapper {
+    width: 100%;
+    min-height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  footer .wrapper .information {
+    min-height: 220px;
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .address-number {
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 77%;
+  }
+
+  footer .wrapper .information .address-number .address span {
+    width: 8%;
+    min-height: 40px;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 35%;
+  }
+
+  footer .wrapper .information .address-number .number span {
+    width: 18%;
+    min-height: 40px;
+  }
+
+  .hr {
+    max-width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    max-width: 100%;
+    min-height: 48px;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+    cursor: pointer;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 900px) {
+  /* service section start */
+
+  #service {
+    padding-top: 20px;
+  }
+
+  #service .wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  #service .wrapper .left {
+    width: 40%;
+    min-height: 300px;
+  }
+
+  #service .wrapper .right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #service .wrapper .left h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  /* service section end */
+
+  /* ********************************* */
+
+  /* satisfaction section start */
+
+  #satisfaction .wrapper{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  #satisfaction .wrapper .common {
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  
+
+  #satisfaction .wrapper .common .heading h2 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  /* satisfaction section end */
+
+  /* ***************************** */
+
+  /* knowledge section start */
+
+  #knowledge .wrapper .starter h2 {
+    font-size: 36px;
+  }
+
+  #knowledge .wrapper .starter p {
+    font-size: 1rem;
+  }
+
+  #knowledge .wrapper .cards {
+    width: 100%;
+    height: auto;
+  }
+
+  #knowledge .wrapper .cards .card {
+    width: 32%;
+    height: auto;
+  }
+
+  .image img {
+    width: 25%;
+    height: auto;
+  }
+
+  #knowledge .wrapper .cards .card h3 {
+    font-size: 20px;
+    line-height: 30.68px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card {
+    height: auto;
+    width: 100%;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice {
+    width: 100%;
+    min-height: 47px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .theoretical {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .center {
+    font-size: 14px;
+  }
+
+  #knowledge
+    .wrapper
+    .cards
+    .card
+    .mini-card
+    .practice
+    .quantity-lesson-center {
+    font-size: 14px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .high {
+    font-size: 14px;
+  }
+
+  #knowledge .wrapper .cards .card .mini-card .practice .quantity-lesson-high {
+    font-size: 14px;
+  }
+
+  /* knowledge section end */
+
+  /* *********************************************************************************** */
+
+  /* belief section start */
+
+  #belief .wrapper {
+    padding: 10px;
+    width: 100%;
+    min-height: 300px;
+  }
+
+  #belief .wrapper .right {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  #belief .wrapper .left {
+    display: none;
+  }
+
+  #belief .wrapper .left img {
+    display: none;
+  }
+
+  #belief .wrapper .right .short {
+    height: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #belief .wrapper .right .short h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  #belief .wrapper .right button {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  #belief .wrapper .right .short img {
+    display: none;
+  }
+
+  /* belief section end */
+
+  /* **************************************** */
+
+  /* form section start */
+
+  #form .wrapper {
+    width: 100%;
+    min-height: 448px;
+    padding: 20px;
+  }
+
+  #form .wrapper .left {
+    width: 100%;
+    min-height: 384px;
+  }
+
+  #form .wrapper .left h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  form button {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #form .wrapper .right {
+    display: none;
+  }
+
+  /* form section end */
+
+  /* ********************************************* *
+
+
+  /* footer start */
+
+  footer .wrapper .information .address-number .address {
+    width: 90%;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 42%;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 800px) {
+
+
+  /* service section start */
+
+  #service {
+    padding-top: 20px;
+  }
+
+  #service .wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  #service .wrapper .left {
+    width: 46%;
+    min-height: 280px;
+  }
+
+  #service .wrapper .right{
+    width: 45%;
+  }
+
+  #service .wrapper .right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #service .wrapper .left h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  /* service section end */
+
+  /* ********************************* */
+
+  
+  /* footer start */
+
+  footer {
+    padding: 50px 15px;
+  }
+
+  footer .wrapper .information {
+    width: 100%;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 70%;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 30%;
+  }
+
+  .hr {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+  }
+
+  footer .wrapper .information .social .card .mini-card {
+    width: 110px;
+    font-size: 14px;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  header nav .extra-nav {
+    width: 65%;
+  }
+
+  header nav .list {
+    width: 50%;
+  }
+
+  /* ********************************************* */
+
+  /* footer start */
+
+  footer {
+    padding: 50px 15px;
+  }
+
+  footer .wrapper {
+    width: 100%;
+  }
+
+  footer .wrapper .information {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 75%;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 36%;
+  }
+
+  .hr {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+  }
+
+  footer .wrapper .information .social .card .mini-card {
+    width: 110px;
+    font-size: 14px;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    width: 100%;
+  }
+
+  header nav .list {
+    display: none;
+  }
+
+  header nav .entry {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  /* ********************************************* */
+
+  /* footer start */
+
+  footer {
+    padding: 50px 15px;
+  }
+
+  footer .wrapper {
+    width: 100%;
+  }
+
+  footer .wrapper .information {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  footer .wrapper .information .address-number .address {
+    width: 75%;
+  }
+
+  footer .wrapper .information .address-number .number {
+    width: 36%;
+  }
+
+  .hr {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social {
+    width: 100%;
+  }
+
+  footer .wrapper .information .social .card {
+    width: 32%;
+  }
+
+  footer .wrapper .information .social .card .mini-card {
+    width: 110px;
+    font-size: 14px;
+  }
+
+  /* footer end */
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
